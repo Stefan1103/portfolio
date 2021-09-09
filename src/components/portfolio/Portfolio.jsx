@@ -1,5 +1,5 @@
 import { portfolioListItems, contentPortfolio, webbAppPortfolio, designPortfolio, mobileAppPortfolio, brandingPortfolio } from '../../data';
-
+import { underContst } from '../../data';
 import { useState, useEffect } from 'react';
 import { PortfolioList } from './portfolioList/PortfolioList';
 
@@ -19,13 +19,6 @@ export default function Portfolio() {
 				case 3:
 					setSelectedPortfolio(designPortfolio);
 					break;
-				case 4:
-					setSelectedPortfolio(brandingPortfolio);
-					break;
-				case 5:
-					setSelectedPortfolio(contentPortfolio);
-					break;
-
 				default:
 					setSelectedPortfolio(webbAppPortfolio);
 					break;
@@ -41,15 +34,19 @@ export default function Portfolio() {
 				<PortfolioList portfolioListItems={portfolioListItems} selected={selected} setSelected={setSelected} />
 			</ul>
 			<div className="container">
-				{selectedPortfolio.map((item) => {
-					const { id, title, img } = item;
-					return (
-						<div key={id} className="item">
-							<img src={img} />
-							<h3>{title}</h3>
-						</div>
-					);
-				})}
+				{selectedPortfolio.length <= 0 ? (
+					<img src={underContst} />
+				) : (
+					selectedPortfolio.map((item) => {
+						const { id, title, img } = item;
+						return (
+							<div key={id} className="item">
+								<img src={img} />
+								<h3>{title}</h3>
+							</div>
+						);
+					})
+				)}
 			</div>
 		</div>
 	);
