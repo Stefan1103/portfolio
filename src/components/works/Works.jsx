@@ -28,12 +28,12 @@ export default function Works() {
 										<p>{desc}</p>
 										<div className="site-links">
 											{gitLink && (
-												<a href={gitLink}>
+												<a href={gitLink} target="_blank">
 													<span>Source code.</span>
 												</a>
 											)}
 											{webLink && (
-												<a href={webLink}>
+												<a href={webLink} target="_blank">
 													<span>Go to website.</span>
 												</a>
 											)}
