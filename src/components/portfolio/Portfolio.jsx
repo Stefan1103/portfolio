@@ -1,4 +1,4 @@
-import { portfolioListItems, contentPortfolio, webbAppPortfolio, designPortfolio, mobileAppPortfolio, brandingPortfolio } from '../../data';
+import { portfolioListItems, webbAppPortfolio, designPortfolio, mobileAppPortfolio } from '../../data';
 import { underContst } from '../../data';
 import { useState, useEffect } from 'react';
 import { PortfolioList } from './portfolioList/PortfolioList';
@@ -35,13 +35,13 @@ export default function Portfolio() {
 			</ul>
 			<div className="container">
 				{selectedPortfolio.length <= 0 ? (
-					<img src={underContst} />
+					<img src={underContst} alt="#" />
 				) : (
 					selectedPortfolio.map((item) => {
 						const { id, title, img, webLink } = item;
 						return (
 							<a key={id} className="item" href={webLink} target="_blank">
-								<img src={img} />
+								<img src={img} alt="#" />
 
 								<h3>{title}</h3>
 							</a>

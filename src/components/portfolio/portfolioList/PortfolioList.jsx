@@ -1,5 +1,4 @@
 import React from 'react';
-import { useState } from 'react';
 
 export const PortfolioList = ({ portfolioListItems, selected, setSelected }) => {
 	return (
