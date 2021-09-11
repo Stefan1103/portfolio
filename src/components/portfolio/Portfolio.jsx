@@ -38,12 +38,13 @@ export default function Portfolio() {
 					<img src={underContst} />
 				) : (
 					selectedPortfolio.map((item) => {
-						const { id, title, img } = item;
+						const { id, title, img, webLink } = item;
 						return (
-							<div key={id} className="item">
+							<a key={id} className="item" href={webLink} target="_blank">
 								<img src={img} />
+
 								<h3>{title}</h3>
-							</div>
+							</a>
 						);
 					})
 				)}

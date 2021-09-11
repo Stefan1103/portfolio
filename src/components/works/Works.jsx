@@ -14,7 +14,7 @@ export default function Works() {
 		<div className="works" id="works">
 			<div className="slider" style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
 				{sliderProjects.map((project) => {
-					const { id, title, img, icon, desc } = project;
+					const { id, title, img, icon, desc, webLink, gitLink } = project;
 
 					return (
 						<div key={id} className="container">
@@ -26,7 +26,18 @@ export default function Works() {
 										</div>
 										<h2>{title}</h2>
 										<p>{desc}</p>
-										<span>Projects</span>
+										<div className="site-links">
+											{gitLink && (
+												<a href={gitLink}>
+													<span>Source code.</span>
+												</a>
+											)}
+											{webLink && (
+												<a href={webLink}>
+													<span>Go to website.</span>
+												</a>
+											)}
+										</div>
 									</div>
 								</div>
 								<div className="right">
