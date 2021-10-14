@@ -2,6 +2,7 @@ import { portfolioListItems, webbAppPortfolio, designPortfolio, mobileAppPortfol
 import { underContst } from '../../data';
 import { useState, useEffect } from 'react';
 import { PortfolioList } from './portfolioList/PortfolioList';
+import { Link } from 'react-router-dom';
 
 export default function Portfolio() {
 	const [ selected, setSelected ] = useState(1);
@@ -38,13 +39,13 @@ export default function Portfolio() {
 					<img src={underContst} alt="#" />
 				) : (
 					selectedPortfolio.map((item) => {
-						const { id, title, img, webLink } = item;
+						const { id, title, img } = item;
 						return (
-							<a key={id} className="item" href={webLink} target="_blank">
+							<Link key={id} className="item" to={`description/${id}`} target="_blank">
 								<img src={img} alt="#" />
 
 								<h3>{title}</h3>
-							</a>
+							</Link>
 						);
 					})
 				)}

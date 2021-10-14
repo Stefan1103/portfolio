@@ -50,6 +50,11 @@
 			@include mobile {
 				width: 8.8rem;
 				height: 4.2rem;
+				background-color: $mainColor;
+				img {
+					opacity: 0.3;
+					z-index: 0;
+				}
 			}
 			h3 {
 				position: absolute;

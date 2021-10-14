@@ -5,7 +5,7 @@ export default function Intro() {
 	const textRef = useRef();
 
 	useEffect(() => {
-		init(textRef.current, { showCursor: true, backDelay: 1200, backSpeed: 50, strings: [ 'Developer!', 'Deisgner!' ] });
+		init(textRef.current, { showCursor: true, backDelay: 1200, backSpeed: 50, strings: [ 'Developer!', 'Designer!' ] });
 	}, []);
 	return (
 		<div className="intro" id="intro">

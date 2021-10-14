@@ -1,0 +1,31 @@
+%butn {
+	display: inline-block;
+	cursor: pointer;
+	border-radius: .15rem;
+	padding: .2rem .6rem;
+	text-align: center;
+	margin: .5rem;
+	text-decoration: none;
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		background-color: lighten($color: $mainColor, $amount: 10%);
+	}
+}
+
+.btn-back {
+	@extend %butn;
+	width: 5rem;
+	color: white;
+	background-color: #9387a3;
+	border: none;
+	font-weight: 600;
+}
+.btn-main {
+	@extend %butn;
+	width: 9rem;
+	color: white;
+	background-color: #9387a3;
+	border: none;
+	font-weight: 600;
+}
