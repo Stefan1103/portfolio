@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import FacebookIcon from '@material-ui/icons/Facebook';
-
 import emailjs from 'emailjs-com';
+import { LinkedIn } from '@material-ui/icons';
 
 export default function Contact() {
 	const [ message, setMessage ] = useState(false);
@@ -34,14 +34,17 @@ export default function Contact() {
 				<h2>Contact.</h2>
 				<div className="social-links">
 					<a href="https://github.com/Stefan1103?tab=repositories" target="_blank">
-						<GitHubIcon fontSize="large" />
+						<GitHubIcon style={{ fontSize: '1.9rem' }} />
 					</a>
-					<a href="https://www.facebook.com/stefan.stevanovski" target="_blanl">
+					<a href="https://www.linkedin.com/in/stefan-stevanovski-0b89b7183/" target="_blanlk">
+						<LinkedIn fontSize="large" />
+					</a>
+					<a href="https://www.facebook.com/stefan.stevanovski" target="_blanlk">
 						<FacebookIcon fontSize="large" />
 					</a>
 				</div>
 				<form onSubmit={handleSubmit}>
-					<input required type="text" placeholder="Subject" name="subject" />
+					<input required type="text" placeholder="Name" name="name" />
 					<input required type="email" placeholder="Email" name="email" />
 					<textarea required placeholder="Message" name="message" />
 					<button type="submit">Send</button>

@@ -31,7 +31,12 @@
 		flex-wrap: wrap;
 
 		@include mobile {
+			flex-direction: column;
 			width: 100%;
+
+			img {
+				width: 100%;
+			}
 		}
 
 		.item {
@@ -48,8 +53,9 @@
 			transition: all .7s ease;
 			cursor: pointer;
 			@include mobile {
-				width: 8.8rem;
-				height: 4.2rem;
+				width: 90%;
+				height: 7.2rem;
+				margin-top: 3rem;
 				background-color: $mainColor;
 				img {
 					opacity: 0.3;

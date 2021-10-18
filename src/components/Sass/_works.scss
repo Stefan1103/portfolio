@@ -113,11 +113,15 @@
 							display: flex;
 							flex-direction: column;
 							a {
+								color: #74638a;
 								span {
 									font-size: 0.7rem;
 									font-weight: 700;
 									text-decoration: underline;
 									cursor: pointer;
+								}
+								&:hover {
+									color: $mainColor;
 								}
 							}
 						}
