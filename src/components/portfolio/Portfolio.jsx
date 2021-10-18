@@ -41,7 +41,7 @@ export default function Portfolio() {
 					selectedPortfolio.map((item) => {
 						const { id, title, img } = item;
 						return (
-							<Link key={id} className="item" to={`description/${id}`} target="_blank">
+							<Link key={id} className="item" to={`description/${id}`}>
 								<img src={img} alt="#" />
 
 								<h3>{title}</h3>
