@@ -11,7 +11,7 @@ export const sidebarItems = [
 	},
 	{
 		id: 3,
-		name: 'Works',
+		name: 'Projects',
 		url: '#works',
 	},
 	{
