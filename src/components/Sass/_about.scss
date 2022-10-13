@@ -1,0 +1,75 @@
+.about {
+  // display: flex;
+  // justify-content: space-around;
+  // align-items: center;
+  // flex-direction: column;
+  // flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr;
+  .about-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      font-size: 3rem;
+
+      @include mobile {
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  .description-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      margin: 0.5rem;
+      font-weight: 500;
+      color: $mainColor;
+      font-size: 1.2rem;
+      @include mobile {
+        font-size: 1rem;
+      }
+    }
+  }
+  .skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h3 {
+      margin: 1rem 0.5rem;
+      font-size: 3rem;
+
+      @include mobile {
+        font-size: 1.4rem;
+      }
+    }
+    p {
+      margin: 1rem 0.5rem;
+      font-weight: 500;
+      color: $mainColor;
+      font-size: 1.2rem;
+      @include mobile {
+        font-size: 1rem;
+      }
+    }
+  }
+  .socials-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.3rem;
+    overflow: hidden;
+    a {
+      overflow: hidden;
+      padding: 0 0.4rem;
+      color: lighten($color: crimson, $amount: 20%);
+      &:hover {
+        color: darken($color: crimson, $amount: 10%);
+      }
+    }
+  }
+}

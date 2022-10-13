@@ -6,14 +6,20 @@ export const sidebarItems = [
   },
   {
     id: 2,
+    name: "About",
+    url: "#about",
+  },
+  {
+    id: 3,
     name: "Portfolio",
     url: "#portfolio",
   },
   {
-    id: 3,
+    id: 4,
     name: "Projects",
     url: "#works",
   },
+
   {
     id: 5,
     name: "Contact",
