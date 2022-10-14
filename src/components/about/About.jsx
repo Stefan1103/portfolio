@@ -27,7 +27,7 @@ const About = () => {
           MaterialUI{" "}
         </p>
         <h4>Basic knowledge:</h4>
-        <p>C++, C, NodeJS, MongoDB, SQL</p>
+        <p>C++, C, NodeJS, MongoDB, SQL, Typescript</p>
       </div>
       <div className="socials-links">
         <a
