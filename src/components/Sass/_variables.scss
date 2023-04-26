@@ -2,16 +2,16 @@ $mainColor: #15023a;
 
 $width: 1360px;
 
-$widthh: 644px;
+$widthh: 880px;
 
 @mixin mobile {
-	@media (max-width: #{$width}) {
-		@content;
-	}
+  @media (max-width: #{$widthh}) {
+    @content;
+  }
 }
 
 @mixin tablet {
-	@media (min-width: #{$widthh}) {
-		@content;
-	}
+  @media (min-width: #{$width}) {
+    @content;
+  }
 }

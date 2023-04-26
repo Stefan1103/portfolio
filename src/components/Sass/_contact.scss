@@ -1,113 +1,113 @@
 .contact {
-	background-color: white;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
-	@include mobile {
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-	.left {
-		overflow: hidden;
-		display: flex;
-		width: 55%;
+  .left {
+    overflow: hidden;
+    display: flex;
+    width: 50%;
 
-		img {
-			height: 100%;
-			width: 100%;
-			object-fit: contain;
-		}
-	}
-	.right {
-		display: flex;
-		flex-direction: column;
-		margin-top: 6rem;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
 
-		h2 {
-			font-size: 1.9rem;
-			overflow: hidden;
-		}
-		.social-links {
-			width: 100%;
-			margin-top: .3rem;
-			display: flex;
-			overflow: hidden;
-			justify-content: space-around;
-			a {
-				overflow: hidden;
-				color: lighten($color: crimson, $amount: 20%);
-				&:hover {
-					color: darken($color: crimson, $amount: 10%);
-				}
-			}
-		}
-		form {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: space-around;
+    h2 {
+      font-size: 1.9rem;
+      overflow: hidden;
+    }
+    .social-links {
+      width: 100%;
+      margin-top: 0.3rem;
+      display: flex;
+      overflow: hidden;
+      justify-content: space-around;
+      a {
+        overflow: hidden;
+        color: lighten($color: crimson, $amount: 20%);
+        &:hover {
+          color: darken($color: crimson, $amount: 10%);
+        }
+      }
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
 
-			input {
-				width: 29rem;
-				height: 1.9rem;
-				font-size: 0.9rem;
-				margin-top: 1rem;
+      input {
+        width: 25rem;
+        height: 1.9rem;
+        font-size: 0.9rem;
+        margin-top: 1rem;
 
-				@include mobile {
-					width: 12.5rem;
-					height: 1.2rem;
-					font-size: 0.7rem;
-				}
+        @include mobile {
+          width: 12.5rem;
+          height: 1.2rem;
+          font-size: 0.7rem;
+        }
 
-				@include tablet {
-					width: 22rem;
-					height: 1.4rem;
-				}
-			}
-			textarea {
-				width: 29rem;
-				height: 22.5rem;
-				font-size: 0.9rem;
-				margin-top: 2rem;
-				@include mobile {
-					width: 12.5rem;
-					height: 6.2rem;
-					font-size: 0.7rem;
-				}
-				@include tablet {
-					width: 22rem;
-					height: 6.4rem;
-				}
-			}
-			button {
-				margin-top: 1rem;
-				width: 14.4rem;
-				height: 2.9rem;
-				color: white;
-				background-color: crimson;
-				border: none;
-				border-radius: 0.7rem;
-				font-weight: 500;
-				cursor: pointer;
+        @include tablet {
+          width: 22rem;
+          height: 1.4rem;
+        }
+      }
+      textarea {
+        width: 25rem;
+        height: 22.5rem;
+        font-size: 0.9rem;
+        margin-top: 2rem;
+        @include mobile {
+          width: 12.5rem;
+          height: 6.2rem;
+          font-size: 0.7rem;
+        }
+        @include tablet {
+          width: 22rem;
+          height: 6.4rem;
+        }
+      }
+      button {
+        margin-top: 1rem;
+        width: 14.4rem;
+        height: 2.9rem;
+        color: white;
+        background-color: crimson;
+        border: none;
+        border-radius: 0.7rem;
+        font-weight: 500;
+        cursor: pointer;
 
-				@include mobile {
-					width: 12.5rem;
-					height: 1.8rem;
-					font-size: 0.7rem;
-				}
+        @include mobile {
+          width: 12.5rem;
+          height: 1.8rem;
+          font-size: 0.7rem;
+        }
 
-				&:focus {
-					outline: none;
-				}
-			}
-			span {
-				margin-top: 2rem;
-				overflow: hidden;
-				color: green;
-			}
-		}
-	}
+        &:focus {
+          outline: none;
+        }
+      }
+      span {
+        margin-top: 2rem;
+        overflow: hidden;
+        color: green;
+      }
+    }
+  }
 }

@@ -61,6 +61,12 @@ export const webbAppPortfolio = [
     img: "assets/portfolio.jpg",
     webLink: "https://github.com/Stefan1103/portfolio",
   },
+  {
+    id: 4,
+    title: "Quotes App",
+    img: "assets/quotes_web_app.png",
+    webLink: "https://github.com/Stefan1103/quotesfs-app",
+  },
 ];
 export const designPortfolio = [
   {
@@ -80,6 +86,12 @@ export const designPortfolio = [
     title: "Portfolio",
     img: "assets/portfolio.jpg",
     webLink: "https://github.com/Stefan1103/portfolio",
+  },
+  {
+    id: 4,
+    title: "Quotes App",
+    img: "assets/quotes_web_app.png",
+    webLink: "https://github.com/Stefan1103/quotesfs-app",
   },
 ];
 
@@ -111,13 +123,24 @@ export const sliderProjects = [
   },
   {
     id: 3,
-    icon: "assets/mobile.png",
+    icon: "assets/globe.png",
     title: "Portfolio",
     shortDesc:
       "This website project is the actual portfolio site. This project Mainly uses React and its packages",
     desc: "This website project is the actual portfolio site. Technologies used are: React, Html and scss. And for the contact form is used emailJS. this project is hosted on netlify.",
     img: "assets/portfolio.jpg",
     gitLink: "https://github.com/Stefan1103/portfolio",
+  },
+  {
+    id: 4,
+    icon: "assets/globe.png",
+    title: "Quotes App",
+    shortDesc:
+      "This is a full stack web app that gets quotes from open source api and after saving them to a custom database shows them on a screen with option to get random quotes aswell.",
+    desc: "This is a full stack web app that gets quotes from open source api and shows them on a screen with option to get random quotes aswell. This app pulls the quotes from open source api, then saves it to mongoDB and then displays it to the user on the front-end. Technologies used is the MERN stack with typescript",
+    img: "assets/quotes_web_app.png",
+    webLink: "https://master--polite-lebkuchen-7db1cc.netlify.app/",
+    gitLink: "https://github.com/Stefan1103/quotesfs-app",
   },
 ];
 

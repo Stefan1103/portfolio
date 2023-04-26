@@ -1,15 +1,17 @@
 .portfolioList {
-	font-size: 1rem;
-	margin-right: 3rem;
-	padding: 0.7rem;
-	border-radius: 0.5rem;
-	cursor: pointer;
-	@include mobile {
-		margin-right: 20px;
-	}
+  font-size: 1rem;
+  margin-right: 3rem;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  cursor: pointer;
+  @include mobile {
+    margin-right: 20px;
+    overflow: hidden;
+  }
 
-	&.active {
-		background-color: $mainColor;
-		color: white;
-	}
+  &.active {
+    background-color: $mainColor;
+    color: white;
+  }
 }
