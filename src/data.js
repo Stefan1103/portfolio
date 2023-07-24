@@ -45,10 +45,11 @@ export const portfolioListItems = [
 export const webbAppPortfolio = [
   {
     id: 1,
-    title: "Movies App",
-    img: "assets/movies_roll_tape.png",
-    webLink: "https://compassionate-brown-bb6b8a.netlify.app/",
+    title: "EU-car-Rental",
+    img: "assets/car_rental.png",
+    webLink: "https://github.com/Stefan1103/eu-car-rentals",
   },
+
   {
     id: 2,
     title: "Flea market",
@@ -57,12 +58,19 @@ export const webbAppPortfolio = [
   },
   {
     id: 3,
+    title: "Movies App",
+    img: "assets/movies_roll_tape.png",
+    webLink: "https://compassionate-brown-bb6b8a.netlify.app/",
+  },
+  {
+    id: 4,
     title: "Portfolio",
     img: "assets/portfolio.jpg",
     webLink: "https://github.com/Stefan1103/portfolio",
   },
+
   {
-    id: 4,
+    id: 5,
     title: "Quotes App",
     img: "assets/quotes_web_app.png",
     webLink: "https://github.com/Stefan1103/quotesfs-app",
@@ -71,10 +79,11 @@ export const webbAppPortfolio = [
 export const designPortfolio = [
   {
     id: 1,
-    title: "Movies App",
-    img: "assets/movies_roll_tape.png",
-    webLink: "https://compassionate-brown-bb6b8a.netlify.app/",
+    title: "EU-car-Rental",
+    img: "assets/car_rental.png",
+    webLink: "https://github.com/Stefan1103/eu-car-rentals",
   },
+
   {
     id: 2,
     title: "Flea market",
@@ -83,12 +92,18 @@ export const designPortfolio = [
   },
   {
     id: 3,
+    title: "Movies App",
+    img: "assets/movies_roll_tape.png",
+    webLink: "https://compassionate-brown-bb6b8a.netlify.app/",
+  },
+  {
+    id: 4,
     title: "Portfolio",
     img: "assets/portfolio.jpg",
     webLink: "https://github.com/Stefan1103/portfolio",
   },
   {
-    id: 4,
+    id: 5,
     title: "Quotes App",
     img: "assets/quotes_web_app.png",
     webLink: "https://github.com/Stefan1103/quotesfs-app",
@@ -101,6 +116,28 @@ export const sliderProjects = [
   {
     id: 1,
     icon: "assets/globe.png",
+    title: "EU-car-rental",
+    shortDesc:
+      "This is a website for a car rental service that showcases the landing page and contact page.",
+    desc: "This website design showcases mainly features about a car rental service like booking,showing car models, navigation,faq section and contact page. Technologies used for this website are material UI icons, sass, hmtl, React and typescript.",
+    img: "assets/car_rental.png",
+    webLink: "https://main--steady-empanada-359a65.netlify.app/",
+    gitLink: "https://github.com/Stefan1103/eu-car-rentals",
+  },
+  {
+    id: 2,
+    icon: "assets/globe.png",
+    title: "Flea market",
+    shortDesc:
+      'This is a Web application for a retail online store/market. This app among others technologies is based on the MERN(Mongo,Express,React,Node) stack, and for the state menagment of the app is utilized a state manager: "Redux". ',
+    desc: "This is a Web application for a retail online store/market. The app's Landing page showcases the stores featured items that are on a sale in a carousel, also you can see other items that are not on sale in the cards below. For navigation and selection for a specific item(s) from the store you can use either the search bar and search for the name of the desired item or you can see the items by categories from the drop down button. You can select items for buying by clicking the button with the cart+ icon or you can see details about the specific item by clicking the Learn more button which will take you to the details page for the selected item. By clicking the button for adding items to your cart you can see the number of items update in the right corner of the navbar. To access your cart you can simply click on the right corner of the navbar cart icon, it will take you to the items in your cart page. In this page you can see your items maniuplate with the cart how ever you want and when you are satisfied you can go to the checkout page. Here you also have an option if you are not satisfied with the selection to go back to the cart and double check your purchase. On the other hand if evrything looks good you can proceed to pay for the items. For this app thechnologies that are used are : the stack MERN(Mongo,Express,React,Node), Scss,HTML,Bootstrap. For the state managment of this app is used REDUX the state manager tool.",
+    img: "assets/Flea_market.jpg",
+    webLink: "https://elastic-shirley-36b743.netlify.app/",
+    gitLink: "https://github.com/Stefan1103/eCommerce-app",
+  },
+  {
+    id: 3,
+    icon: "assets/globe.png",
     title: "Movies App",
     shortDesc:
       "Web application that enables searching for all movies and inofrmation details about the movie, in order to achive this the app uses the open source OMDB API. Technologies that are used for this app are : React,Html,Scss.",
@@ -111,18 +148,7 @@ export const sliderProjects = [
     gitLink: "https://github.com/Stefan1103/movies-app",
   },
   {
-    id: 2,
-    icon: "assets/globe.png",
-    title: "Flea market",
-    shortDesc:
-      'This is a Web application for a retail online store/market. This app among others technologies is based on the MERN(Mongo,Express,React,Node) stack, and for the state menagment of the app is utilized a state manager: "Redux". ',
-    desc: "This is a Web application for a retail online store/market. The app's Landing page showcases the stores featured items that are on a sale in a carousel, also you can see other items that are not on sale in the cards below. For navigation and selection for a specific item(s) from the store you can use either the search bar and search for the name of the desired item or you can see the items by categories from the drop down button. You can select items for buying by clicking the button with the cart+ icon or you can see details about the specific item by clicking the Learn more button which will take you to the details page for the selected item. By clicking the button for adding items to your cart you can see the number of items update in the right corner of the navbar. To access your cart you can simply click on the right corner of the navbar cart icon, it will take you to the items in your cart page. In this page you can see your items maniuplate with the cart how ever you want and when you are satisfied you can go to the checkout page. Here you also have an option if you are not satisfied with the selection to go back to the cart and double check your purchase. On the other hand if evrything looks good you can proceed to pay for the items. For this app thechnologies that are used are : the stack MERN(Mongo,Express,React,Node), Scss,HTML,Bootstrap. For the state managment of this app is used REDUX the state manager tool. This project's client side is hosted on netfly and the server side on heroku.",
-    img: "assets/Flea_market.jpg",
-    webLink: "https://elastic-shirley-36b743.netlify.app/",
-    gitLink: "https://github.com/Stefan1103/eCommerce-app",
-  },
-  {
-    id: 3,
+    id: 4,
     icon: "assets/globe.png",
     title: "Portfolio",
     shortDesc:
@@ -132,7 +158,7 @@ export const sliderProjects = [
     gitLink: "https://github.com/Stefan1103/portfolio",
   },
   {
-    id: 4,
+    id: 5,
     icon: "assets/globe.png",
     title: "Quotes App",
     shortDesc:

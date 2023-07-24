@@ -13,7 +13,7 @@ const Description = () => {
   const { icon, title, id, desc, webLink, gitLink, img } = filteredProjects[0];
   return (
     <div className="containerDesc">
-      <h2>{title}</h2>
+      <h1>{title}</h1>
       <div className="innerContainer">
         <div className="left">
           <img src={`/${img}`} alt="#" />
@@ -24,9 +24,9 @@ const Description = () => {
       </div>
 
       <div className="btn-container">
-        <Link className="btn-back" to="/">
+        <a className="btn-back" href="/#portfolio">
           Back
-        </Link>
+        </a>
         <a className="btn-main" href={webLink} target="_blank">
           Got to website
         </a>
