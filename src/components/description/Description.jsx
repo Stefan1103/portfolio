@@ -1,7 +1,6 @@
 import React from "react";
 import { useParams } from "react-router";
 import { sliderProjects } from "../../data";
-import { Link } from "react-router-dom";
 
 const Description = () => {
   const { clickedId } = useParams();

@@ -163,7 +163,7 @@ export const sliderProjects = [
     title: "Quotes App",
     shortDesc:
       "This is a full stack web app that gets quotes from open source api and after saving them to a custom database shows them on a screen with option to get random quotes aswell.",
-    desc: "This is a full stack web app that gets quotes from open source api and shows them on a screen with option to get random quotes aswell. This app pulls the quotes from open source api, then saves it to mongoDB and then displays it to the user on the front-end. Technologies used is the MERN stack with typescript",
+    desc: "This is a full stack web app that gets quotes from open source api and shows them on a screen with option to get random quotes aswell. This app pulls the quotes from open source api, then saves it to mongoDB and then before displaying the quotes on the front-end, it's making another api call to the open source api agify and gets random ages for the authors of the quotes and then displays emoji depending on how old is the author. Technologies used is the MERN stack with typescript",
     img: "assets/quotes_web_app.png",
     webLink: "https://master--polite-lebkuchen-7db1cc.netlify.app/",
     gitLink: "https://github.com/Stefan1103/quotesfs-app",
