@@ -54,9 +54,9 @@
       transition: all 0.7s ease;
       cursor: pointer;
       @include mobile {
-        width: 80%;
-        height: 3.2rem;
-        margin-top: 3rem;
+        width: 50%;
+        height: 6rem;
+        margin-top: 1rem;
         background-color: $mainColor;
         img {
           opacity: 0.3;

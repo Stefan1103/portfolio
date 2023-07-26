@@ -33,11 +33,25 @@
     .right {
       max-width: 55%;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      justify-content: space-around;
       align-items: center;
       @include mobile {
         margin-top: 1rem;
         max-width: 90%;
+      }
+      .icon-container {
+        max-width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        img {
+          margin: 1rem;
+          @include mobile {
+            max-width: 60px;
+          }
+        }
       }
     }
   }

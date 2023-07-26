@@ -9,7 +9,8 @@ const Description = () => {
 
     return project.id === parseInt(clickedId);
   });
-  const { icon, title, id, desc, webLink, gitLink, img } = filteredProjects[0];
+  const { icon, title, id, desc, webLink, gitLink, img, techStack } =
+    filteredProjects[0];
   return (
     <div className="containerDesc">
       <h1>{title}</h1>
@@ -19,6 +20,12 @@ const Description = () => {
         </div>
         <div className="right">
           <p>{desc}</p>
+          <div className="icon-container">
+            {techStack.map((techIcon) => {
+              const { id, icon, alt } = techIcon;
+              return <img key={id} src={`/${icon}`} alt={alt}></img>;
+            })}
+          </div>
         </div>
       </div>
 
