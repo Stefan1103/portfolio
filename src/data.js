@@ -128,7 +128,7 @@ export const sliderProjects = [
       },
       {
         id: 2,
-        icon: "assets/icons8-css-96.png",
+        icon: "assets/icons8-sass-96.png",
         alt: "css icon",
       },
       {
@@ -161,7 +161,7 @@ export const sliderProjects = [
       },
       {
         id: 2,
-        icon: "assets/icons8-css-96.png",
+        icon: "assets/icons8-sass-96.png",
         alt: "css icon",
       },
       {
@@ -204,7 +204,7 @@ export const sliderProjects = [
       },
       {
         id: 2,
-        icon: "assets/icons8-css-96.png",
+        icon: "assets/icons8-sass-96.png",
         alt: "css icon",
       },
       {
@@ -238,7 +238,7 @@ export const sliderProjects = [
       },
       {
         id: 2,
-        icon: "assets/icons8-css-96.png",
+        icon: "assets/icons8-sass-96.png",
         alt: "css icon",
       },
       {
@@ -265,7 +265,7 @@ export const sliderProjects = [
       },
       {
         id: 2,
-        icon: "assets/icons8-css-96.png",
+        icon: "assets/icons8-sass-96.png",
         alt: "css icon",
       },
       {
