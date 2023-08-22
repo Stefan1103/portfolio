@@ -24,10 +24,10 @@ const About = () => {
         <h4>Intermediate knowledge:</h4>
         <p>
           ReactJS, HTML5, SCSS, CSS3, Bootstrap, Javascript, Redux, JQuery, NPM,
-          MaterialUI{" "}
+          MaterialUI, Typescript{" "}
         </p>
         <h4>Basic knowledge:</h4>
-        <p>C++, C, NodeJS, MongoDB, SQL, Typescript</p>
+        <p>C++, C, NodeJS, MongoDB, SQL, Nextjs</p>
       </div>
       <div className="socials-links">
         <a
