@@ -181,7 +181,7 @@ export const sliderProjects = [
       },
       {
         id: 6,
-        icon: "assets/icon8-redux-96.png",
+        icon: "assets/icons8-redux-96.png",
         alt: "redux icon",
       },
     ],
